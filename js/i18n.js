@@ -1,5 +1,6 @@
 import { setClockLocale } from './clock.js';
 import { renderProjects } from './projects.js';
+import { setContactLocale } from './contact.js';
 
 const STORAGE_KEY = 'portfolio-lang';
 
@@ -18,6 +19,16 @@ const translations = {
     'projects.filterAll': 'Todos',
     'projects.filterWebapp': 'Web Apps',
     'projects.filterLanding': 'Sitios & Landing',
+    'contact.title': 'Contacto',
+    'contact.subtitle':
+      '¿Tenés un proyecto, una idea o necesitás una web a medida? Escribime directo.',
+    'contact.description':
+      'Trabajo en interfaces web, landing pages y aplicaciones frontend enfocadas en rendimiento, claridad y experiencia real de usuario.',
+    'contact.whatsapp': 'Escribir por WhatsApp',
+    'contact.emailBtn': 'Enviar correo',
+    'contact.copyEmail': 'Copiar email',
+    'footer.rights': 'Natanael — Desarrollador Frontend. Hecho con HTML, CSS y JavaScript.',
+    'footer.location': 'Montevideo, Uruguay',
   },
   en: {
     'hero.badge': 'Available for freelance projects',
@@ -33,6 +44,16 @@ const translations = {
     'projects.filterAll': 'All',
     'projects.filterWebapp': 'Web Apps',
     'projects.filterLanding': 'Sites & Landing',
+    'contact.title': 'Contact',
+    'contact.subtitle':
+      'Have a project, an idea, or need a custom website? Reach out directly.',
+    'contact.description':
+      'I build web interfaces, landing pages, and frontend applications focused on performance, clarity, and real user experience.',
+    'contact.whatsapp': 'Message on WhatsApp',
+    'contact.emailBtn': 'Send email',
+    'contact.copyEmail': 'Copy email',
+    'footer.rights': 'Natanael — Frontend Developer. Built with HTML, CSS, and JavaScript.',
+    'footer.location': 'Montevideo, Uruguay',
   },
   pt: {
     'hero.badge': 'Disponível para projetos freelance',
@@ -48,6 +69,16 @@ const translations = {
     'projects.filterAll': 'Todos',
     'projects.filterWebapp': 'Web Apps',
     'projects.filterLanding': 'Sites & Landing',
+    'contact.title': 'Contato',
+    'contact.subtitle':
+      'Tem um projeto, uma ideia ou precisa de um site sob medida? Fale comigo direto.',
+    'contact.description':
+      'Desenvolvo interfaces web, landing pages e aplicações frontend com foco em desempenho, clareza e experiência real do usuário.',
+    'contact.whatsapp': 'Chamar no WhatsApp',
+    'contact.emailBtn': 'Enviar e-mail',
+    'contact.copyEmail': 'Copiar e-mail',
+    'footer.rights': 'Natanael — Desenvolvedor Frontend. Feito com HTML, CSS e JavaScript.',
+    'footer.location': 'Montevidéu, Uruguai',
   },
 };
 
@@ -69,6 +100,7 @@ function applyLanguage(lang) {
 
   setClockLocale(lang);
   renderProjects(lang);
+  setContactLocale(lang);
 }
 
 export function initI18n() {
