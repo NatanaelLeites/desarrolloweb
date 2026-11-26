@@ -3,8 +3,8 @@ const projectsData = [
     id: 'al-punto',
     category: 'webapp',
     tags: ['HTML', 'CSS', 'JavaScript', 'Firebase'],
-    repoUrl: 'https://github.com/tu-usuario',
-    liveUrl: '#',
+    repoUrl: 'https://github.com/NatanaelLeites/al_punto',
+    liveUrl: 'https://natanaelleites.github.io/al_punto/',
     title: {
       es: 'Al Punto — Viandas Saludables',
       en: 'Al Punto — Healthy Meal Delivery',
@@ -20,8 +20,8 @@ const projectsData = [
     id: 'rmm-fisioterapia',
     category: 'landing',
     tags: ['HTML', 'CSS', 'JavaScript', 'Mobile-First'],
-    repoUrl: 'https://github.com/tu-usuario',
-    liveUrl: '#',
+    repoUrl: 'https://github.com/NatanaelLeites/rmm',
+    liveUrl: 'https://natanaelleites.github.io/rmm/',
     title: {
       es: 'RMM Fisioterapia',
       en: 'RMM Physiotherapy',
