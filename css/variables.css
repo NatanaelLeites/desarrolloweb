@@ -1,0 +1,31 @@
+:root {
+  /* Modo Claro (Light) */
+  --bg-primary: #f8fafc;
+  --bg-surface: #ffffff;
+  --bg-subtle: #f1f5f9;
+  --text-primary: #0f172a;
+  --text-secondary: #475569;
+  --border-color: #e2e8f0;
+  --accent: #10b981;
+  --accent-hover: #059669;
+
+  /* Tipografía y espaciado */
+  --font-sans: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  --container-max: 1100px;
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --transition: 0.2s ease;
+}
+
+[data-theme="dark"] {
+  /* Modo Oscuro (Dark) */
+  --bg-primary: #0b0f19;
+  --bg-surface: #111827;
+  --bg-subtle: #1e293b;
+  --text-primary: #f8fafc;
+  --text-secondary: #94a3b8;
+  --border-color: #1e293b;
+  --accent: #34d399;
+  --accent-hover: #10b981;
+}
